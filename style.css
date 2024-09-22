@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IM Fell Double Pica", system-ui;
+  
+}
+#containter{
+    width: 110%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    background-image: url(https://i.pinimg.com/564x/80/c7/1a/80c71af11b0cecdbd1bda88cfa1d7303.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+   
+    align-items: center;
+    margin-left: 0px;
+    background-color: rgb(44, 56, 44);
+    
+}
+.search-container{
+    display: flex;
+    margin-left: 0px;
+}
+#searchInput
+{
+    border-radius: 4px;
+}
+#searchbutton{
+    border: none;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+}
+#searchbutton:hover{
+    background-color: #5E6366;
+}
+
+.logo{
+    width: 100px;
+}
+.main{
+    font-weight: 700;
+    margin-right: 800px;
+    font-family: "Kaushan Script", system-ui;
+    color: white;
+
+}
+.listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+.links{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-weight: 600px;
+}
+.links:hover{
+    color:white;
+    text-decoration: underline;
+}
+#quote
+{
+    position: absolute;
+    margin: 50px;
+    color: rgb(108, 19, 19);
+    margin-top: 200px;
+    line-height: 1.5;
+    font-weight: 200px;
+    width: 600px;
+}
+#gift{
+    text-decoration: none;
+    background-color:rgb(44, 56, 44);
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size:x-large;
+    width: 150px;
+    text-align: center;
+    font-family: "Kaushan Script", system-ui;
+    
+}
+.container{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.featured-products {
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-thumbnail img {
+    width: 500px;
+    border-radius: 7px;
+    height: 500px;
+}
+
+.product-info {
+    width: 610px;
+    height: 224px;
+    margin-left: 96px;
+}
+
+.product-title {
+    width: 710px;
+    height: 60px;
+    font-weight: 1100px;
+    font-size: 38px;
+    color: #0A0826;
+    font-family: "Kaushan Script", system-ui;
+}
+
+.product-detail {
+    width: 700px;
+    height: 500px;
+    font-weight: 800;
+    font-size: 26px;
+    color: black;
+}
+.section-title {
+    color:rgb(44, 56, 44);
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-right: 200px;
+  
+  
+
+}
+
+.collections {
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 25px;
+}
+
+.collection {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.collection .collection-thumbnail img {
+    width: 300px;
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.collection-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fa-star.filled {
+    font-size: 12px;
+    color: #FB8200;
+
+}
+
+.ratting {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.collection-review {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.see-more {
+    display: flex;
+    justify-content: end;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+span .fa-arrow-right {
+    font-size: 15px;
+    margin-left: 4px;
+}
+#learn{
+    /* like button */
+    text-decoration: none;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+    /* inline element doesnt work margin top so */
+
+}
+/* footer */
+footer {
+    width: 1540px;
+    background-color: #0A0826;
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0px;
+    /* padding-bottom: 50px; */
+
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.copy-right {
+    color: #D9DBE1;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-link a {
+    text-decoration: none;
+}
+
+.fa-brands {
+    margin-right: 16px;
+}
+
+.fa-twitter {
+    color: #FFFFFF;
+
+}
+
+.fa-facebook {
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    color: #FFFFFF;
+}
+
+.fa-github {
+    color: #FFFFFF;
+}
+
+.main1{
+    color: #FFFFFF;
+    font-family: "Kaushan Script", system-ui;
+    font-weight: 700;
+    display: flex;
+    
+    
+}
+@media only screen and (max-width:688px) {
+
+
+    .nav{
+     flex-direction: column;
+       align-items: center;
+ 
+
+    }
+
+    .nav ul{
+     width: 300px;
+     padding: 1rem;
+   
+    
+    }
+    
+
+    main {
+
+    width: 100%;
+        
+     
+    }
+
+
+
+    .featured-products {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .instrument {
+        width: 257px;
+        height: 257px;
+        
+    }
+
+   
+
+    .back-ground img {
+        width: 100%
+    }
+
+   
+
+    .logo {
+    
+        margin: auto;
+    }
+
+    .container {
+        width: 329px;
+        height: 4504px;
+        margin: 5rem;
+        margin-top: 100%;
+       
+    }
+    .section-title{
+        margin:2rem ;
+    }
+
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .featured-products {
+        margin-top: 850px;
+        margin: 40%;
+        margin-left: -80px;
+    }
+
+    .product-thumbnail {
+        width: 599px;
+        height: 188px;
+    }
+
+    .product-thumbnail img {
+       width: 500px;
+       margin-top: 100px;
+    }
+
+    .product-info {
+        margin-top: 50px;
+    }
+    .product-detail{
+        font-size: 19px;
+        width: 50%;
+       
+    }
+
+    .title {
+        text-align: left;
+        padding: 60px;
+    }
+
+
+
+
+
+
+}
